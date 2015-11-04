@@ -20,31 +20,6 @@
 		4FAA6AC807B3247300885199 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20286C33FDCF999611CA2CEA /* Carbon.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXBuildStyle section */
-		4A9504C5FFE6A39111CA0CBA /* Development */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				OPTIMIZATION_CFLAGS = "-O0";
-				ZERO_LINK = YES;
-			};
-			name = Development;
-		};
-		4A9504C6FFE6A39111CA0CBA /* Deployment */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				ZERO_LINK = NO;
-			};
-			name = Deployment;
-		};
-/* End PBXBuildStyle section */
-
 /* Begin PBXFileReference section */
 		0867D6ABFE840B52C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1870340FFE93FCAF11CA0CD7 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/main.nib; sourceTree = "<group>"; };
@@ -146,7 +121,7 @@
 /* Begin PBXNativeTarget section */
 		4FAA6AB907B3247300885199 /* CarbonToolbar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F5571A608A00AD000BAA99A /* Build configuration list for PBXNativeTarget "CarbonToolbar" */;
+			buildConfigurationList = BE651AA70C34727000EC1FC8 /* Build configuration list for PBXNativeTarget "CarbonToolbar" */;
 			buildPhases = (
 				4FAA6ABA07B3247300885199 /* Headers */,
 				4FAA6ABD07B3247300885199 /* Resources */,
@@ -156,26 +131,6 @@
 			);
 			buildRules = (
 			);
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Prefix.h;
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "Info-CarbonToolbar.plist";
-				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Demos";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = CarbonToolbar;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = app;
-			};
 			dependencies = (
 			);
 			name = CarbonToolbar;
@@ -189,13 +144,7 @@
 /* Begin PBXProject section */
 		20286C28FDCF999611CA2CEA /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 4F5571AA08A00AD000BAA99A /* Build configuration list for PBXProject "CarbonToolbar" */;
-			buildSettings = {
-			};
-			buildStyles = (
-				4A9504C5FFE6A39111CA0CBA /* Development */,
-				4A9504C6FFE6A39111CA0CBA /* Deployment */,
-			);
+			buildConfigurationList = BE651AAB0C34727000EC1FC8 /* Build configuration list for PBXProject "CarbonToolbar" */;
 			hasScannedForEncodings = 1;
 			mainGroup = 20286C29FDCF999611CA2CEA /* CarbonToolbar */;
 			projectDirPath = "";
@@ -263,85 +212,134 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4F5571A708A00AD000BAA99A /* Debug */ = {
+		BE651AA80C34727000EC1FC8 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Prefix.h;
-				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
-				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "Info-CarbonToolbar.plist";
 				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Demos";
+				LIBRARY_SEARCH_PATHS = "";
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = CarbonToolbar;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
 			};
-			name = Debug;
+			name = Development;
 		};
-		4F5571A808A00AD000BAA99A /* Release */ = {
+		BE651AA90C34727000EC1FC8 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_MODEL_TUNING = G5;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Prefix.h;
-				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "Info-CarbonToolbar.plist";
 				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Demos";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = CarbonToolbar;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		BE651AAA0C34727000EC1FC8 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.h;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-CarbonToolbar.plist";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Demos";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CarbonToolbar;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
 				WRAPPER_EXTENSION = app;
 			};
-			name = Release;
+			name = Default;
 		};
-		4F5571AB08A00AD000BAA99A /* Debug */ = {
+		BE651AAC0C34727000EC1FC8 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
 			};
-			name = Debug;
+			name = Development;
 		};
-		4F5571AC08A00AD000BAA99A /* Release */ = {
+		BE651AAD0C34727000EC1FC8 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
 			};
-			name = Release;
+			name = Deployment;
+		};
+		BE651AAE0C34727000EC1FC8 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Default;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4F5571A608A00AD000BAA99A /* Build configuration list for PBXNativeTarget "CarbonToolbar" */ = {
+		BE651AA70C34727000EC1FC8 /* Build configuration list for PBXNativeTarget "CarbonToolbar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F5571A708A00AD000BAA99A /* Debug */,
-				4F5571A808A00AD000BAA99A /* Release */,
+				BE651AA80C34727000EC1FC8 /* Development */,
+				BE651AA90C34727000EC1FC8 /* Deployment */,
+				BE651AAA0C34727000EC1FC8 /* Default */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Default;
 		};
-		4F5571AA08A00AD000BAA99A /* Build configuration list for PBXProject "CarbonToolbar" */ = {
+		BE651AAB0C34727000EC1FC8 /* Build configuration list for PBXProject "CarbonToolbar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F5571AB08A00AD000BAA99A /* Debug */,
-				4F5571AC08A00AD000BAA99A /* Release */,
+				BE651AAC0C34727000EC1FC8 /* Development */,
+				BE651AAD0C34727000EC1FC8 /* Deployment */,
+				BE651AAE0C34727000EC1FC8 /* Default */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Default;
 		};
 /* End XCConfigurationList section */
 	};

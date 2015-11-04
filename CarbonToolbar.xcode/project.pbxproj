@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		02345980000FD03B11CA0E72 = {
+			children = (
+				1870340FFE93FCAF11CA0CD7,
+			);
+			isa = PBXVariantGroup;
+			name = main.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//020
+//021
+//022
+//023
+//024
+//080
+//081
+//082
+//083
+//084
+		0867D6AAFE840B52C02AAC07 = {
+			children = (
+				0867D6ABFE840B52C02AAC07,
+			);
+			isa = PBXVariantGroup;
+			name = InfoPlist.strings;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0867D6ABFE840B52C02AAC07 = {
+			fileEncoding = 10;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.strings;
+			name = English;
+			path = English.lproj/InfoPlist.strings;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//080
+//081
+//082
+//083
+//084
+//180
+//181
+//182
+//183
+//184
+		1870340FFE93FCAF11CA0CD7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			name = English;
+			path = English.lproj/main.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//180
+//181
+//182
+//183
+//184
+//190
+//191
+//192
+//193
+//194
+		195DF8CFFE9D517E11CA2CBB = {
+			children = (
+				4FAA6ACB07B3247300885199,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//190
+//191
+//192
+//193
+//194
+//200
+//201
+//202
+//203
+//204
+		20286C28FDCF999611CA2CEA = {
+			buildSettings = {
+			};
+			buildStyles = (
+				4A9504C5FFE6A39111CA0CBA,
+				4A9504C6FFE6A39111CA0CBA,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 20286C29FDCF999611CA2CEA;
+			projectDirPath = "";
+			targets = (
+				4FAA6AB907B3247300885199,
+			);
+		};
+		20286C29FDCF999611CA2CEA = {
+			children = (
+				20286C2AFDCF999611CA2CEA,
+				20286C2CFDCF999611CA2CEA,
+				20286C32FDCF999611CA2CEA,
+				195DF8CFFE9D517E11CA2CBB,
+				4FAA6ACA07B3247300885199,
+			);
+			isa = PBXGroup;
+			name = CarbonToolbar;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		20286C2AFDCF999611CA2CEA = {
+			children = (
+				20286C2BFDCF999611CA2CEA,
+				F7DF0EB4028C82D803CA0DE6,
+				F7DF0EB6028C82DF03CA0DE6,
+				223C58C00693CA3C000CB21E,
+			);
+			isa = PBXGroup;
+			name = Sources;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		20286C2BFDCF999611CA2CEA = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			lineEnding = 0;
+			path = main.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		20286C2CFDCF999611CA2CEA = {
+			children = (
+				F7E373F60241296103CA0DE6,
+				8DB17E7007693A2300DF5371,
+				4F0C7B1007C5626D00AEA647,
+				4F0C7B1B07C5629300AEA647,
+				0867D6AAFE840B52C02AAC07,
+				02345980000FD03B11CA0E72,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		20286C32FDCF999611CA2CEA = {
+			children = (
+				20286C33FDCF999611CA2CEA,
+				4A9504CAFFE6A41611CA0CBA,
+				4A9504C8FFE6A3BC11CA0CBA,
+			);
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		20286C33FDCF999611CA2CEA = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Carbon.framework;
+			path = /System/Library/Frameworks/Carbon.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+//200
+//201
+//202
+//203
+//204
+//220
+//221
+//222
+//223
+//224
+		223C58C00693CA3C000CB21E = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = Prefix.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//220
+//221
+//222
+//223
+//224
+//4A0
+//4A1
+//4A2
+//4A3
+//4A4
+		4A9504C5FFE6A39111CA0CBA = {
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OPTIMIZATION_CFLAGS = "-O0";
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		4A9504C6FFE6A39111CA0CBA = {
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+		4A9504C8FFE6A3BC11CA0CBA = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = ApplicationServices.framework;
+			path = /System/Library/Frameworks/ApplicationServices.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		4A9504CAFFE6A41611CA0CBA = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreServices.framework;
+			path = /System/Library/Frameworks/CoreServices.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+//4A0
+//4A1
+//4A2
+//4A3
+//4A4
+//4F0
+//4F1
+//4F2
+//4F3
+//4F4
+		4F0C7B1007C5626D00AEA647 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.png;
+			path = left.png;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		4F0C7B1107C5626D00AEA647 = {
+			fileRef = 4F0C7B1007C5626D00AEA647;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4F0C7B1B07C5629300AEA647 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.png;
+			path = right.png;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		4F0C7B1C07C5629300AEA647 = {
+			fileRef = 4F0C7B1B07C5629300AEA647;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4FAA6AB907B3247300885199 = {
+			buildPhases = (
+				4FAA6ABA07B3247300885199,
+				4FAA6ABD07B3247300885199,
+				4FAA6AC407B3247300885199,
+				4FAA6AC707B3247300885199,
+				4FAA6AC907B3247300885199,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.h;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-CarbonToolbar.plist";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Demos";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CarbonToolbar;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = CarbonToolbar;
+			productInstallPath = "$(LOCAL_DEVELOPER_DIR)/Demos";
+			productName = CarbonToolbar;
+			productReference = 4FAA6ACB07B3247300885199;
+			productType = "com.apple.product-type.application";
+		};
+		4FAA6ABA07B3247300885199 = {
+			buildActionMask = 2147483647;
+			files = (
+				4FAA6ABB07B3247300885199,
+				4FAA6ABC07B3247300885199,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAA6ABB07B3247300885199 = {
+			fileRef = F7DF0EB6028C82DF03CA0DE6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4FAA6ABC07B3247300885199 = {
+			fileRef = 223C58C00693CA3C000CB21E;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4FAA6ABD07B3247300885199 = {
+			buildActionMask = 2147483647;
+			files = (
+				4FAA6ABE07B3247300885199,
+				4FAA6ABF07B3247300885199,
+				4FAA6AC007B3247300885199,
+				4FAA6AC107B3247300885199,
+				4F0C7B1107C5626D00AEA647,
+				4F0C7B1C07C5629300AEA647,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAA6ABE07B3247300885199 = {
+			fileRef = 0867D6AAFE840B52C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4FAA6ABF07B3247300885199 = {
+			fileRef = 02345980000FD03B11CA0E72;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4FAA6AC007B3247300885199 = {
+			fileRef = F7E373F60241296103CA0DE6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4FAA6AC107B3247300885199 = {
+			fileRef = 8DB17E7007693A2300DF5371;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4FAA6AC407B3247300885199 = {
+			buildActionMask = 2147483647;
+			files = (
+				4FAA6AC507B3247300885199,
+				4FAA6AC607B3247300885199,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAA6AC507B3247300885199 = {
+			fileRef = 20286C2BFDCF999611CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		4FAA6AC607B3247300885199 = {
+			fileRef = F7DF0EB4028C82D803CA0DE6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4FAA6AC707B3247300885199 = {
+			buildActionMask = 2147483647;
+			files = (
+				4FAA6AC807B3247300885199,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAA6AC807B3247300885199 = {
+			fileRef = 20286C33FDCF999611CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4FAA6AC907B3247300885199 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAA6ACA07B3247300885199 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.xml;
+			path = "Info-CarbonToolbar.plist";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		4FAA6ACB07B3247300885199 = {
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = CarbonToolbar.app;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+//4F0
+//4F1
+//4F2
+//4F3
+//4F4
+//8D0
+//8D1
+//8D2
+//8D3
+//8D4
+		8DB17E7007693A2300DF5371 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.icns;
+			path = red.icns;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//8D0
+//8D1
+//8D2
+//8D3
+//8D4
+//F70
+//F71
+//F72
+//F73
+//F74
+		F7DF0EB4028C82D803CA0DE6 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			lineEnding = 0;
+			path = CustomToolbarItem.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F7DF0EB6028C82DF03CA0DE6 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			lineEnding = 0;
+			path = CustomToolbarItem.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F7E373F60241296103CA0DE6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.icns;
+			path = cut.icns;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+	};
+	rootObject = 20286C28FDCF999611CA2CEA;
+}
